@@ -1,9 +1,16 @@
+#####################################################################
+## IFMA Campus Caxias --- Programação Orientada a Objetos --- N3   ##
+## Dupla:                                                          ##
+## Jaelma Barbosa de Oliveira                                      ##
+## João Marcelo Diniz Mendes da Silva                              ##
+#####################################################################
+
 import pymysql
 import  menu as menu
 from classes import Funcao, Funcionario
 
 connection = pymysql.connect(host='localhost', user='root', 
-                            password='masterx', database='prova03', 
+                            password='Kn@50L1#', database='prova03', 
                             cursorclass=pymysql.cursors.DictCursor)
 
 def cadastrarFuncao():
